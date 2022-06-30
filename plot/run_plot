@@ -1,0 +1,12 @@
+# `bash run_plot` to run
+cd $(dirname "$0")
+gnuplot plot.gnuplot
+cd gnuplot
+pdfcrop figure1a.pdf figure1a.pdf
+pdfcrop figure1b.pdf figure1b.pdf
+pdfcrop figure2.pdf figure2.pdf
+pdfcrop figure3.pdf figure3.pdf
+pdfcrop figure4.pdf figure4.pdf
+pdfcrop figure5.pdf figure5.pdf
+pdfcrop figure6.pdf figure6.pdf
+pdfcrop figure7.pdf figure7.pdf

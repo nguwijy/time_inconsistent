@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ipython
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# temporary log files
+simulation_information.txt
+
+# large log files
+final_log/
